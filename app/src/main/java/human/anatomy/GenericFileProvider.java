@@ -1,4 +1,4 @@
-package webviewgold.myappname;
+package human.anatomy;
 
 import androidx.core.content.FileProvider;
 

@@ -1,4 +1,4 @@
-package webviewgold.myappname;
+package human.anatomy;
 
 import android.app.Activity;
 import android.app.Application;

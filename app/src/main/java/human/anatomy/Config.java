@@ -1,4 +1,4 @@
-package webviewgold.myappname;
+package human.anatomy;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;

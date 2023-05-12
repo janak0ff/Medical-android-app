@@ -1,4 +1,4 @@
-package webviewgold.myappname;
+package human.anatomy;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;

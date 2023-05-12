@@ -1,4 +1,4 @@
-package webviewgold.myappname;
+package human.anatomy;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -9,9 +9,9 @@ import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Build;
 
-import static webviewgold.myappname.Config.SHOW_FACEBOOK_DIALOG;
-import static webviewgold.myappname.Config.SHOW_FIRSTRUN_DIALOG;
-import static webviewgold.myappname.Config.SHOW_RATE_DIALOG;
+import static human.anatomy.Config.SHOW_FACEBOOK_DIALOG;
+import static human.anatomy.Config.SHOW_FIRSTRUN_DIALOG;
+import static human.anatomy.Config.SHOW_RATE_DIALOG;
 
 
 class AlertManager {

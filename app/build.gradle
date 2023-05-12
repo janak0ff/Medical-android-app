@@ -16,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "webviewgold.myappname"
+        applicationId "human.anatomy"
         minSdkVersion 22
         targetSdkVersion 33
         versionCode 1

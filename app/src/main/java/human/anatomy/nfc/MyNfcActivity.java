@@ -1,4 +1,4 @@
-package webviewgold.myappname.nfc;
+package human.anatomy.nfc;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package webviewgold.myappname;
+package human.anatomy;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -155,17 +155,17 @@ import androidx.core.content.FileProvider;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import static webviewgold.myappname.Config.ACTIVATE_PROGRESS_BAR;
-import static webviewgold.myappname.Config.ENABLE_SWIPE_NAVIGATE;
-import static webviewgold.myappname.Config.ENABLE__PULL_REFRESH;
-import static webviewgold.myappname.Config.EXIT_APP_DIALOG;
-import static webviewgold.myappname.Config.HIDE_NAVIGATION_BAR_IN_LANDSCAPE;
-import static webviewgold.myappname.Config.INCREMENT_WITH_REDIRECTS;
-import static webviewgold.myappname.Config.MAX_TEXT_ZOOM;
-import static webviewgold.myappname.Config.REMAIN_SPLASH_OPTION;
-import static webviewgold.myappname.Config.SPECIAL_LINK_HANDLING_OPTIONS;
-import static webviewgold.myappname.Config.SPLASH_SCREEN_ACTIVATED;
-import static webviewgold.myappname.Config.downloadableExtension;
+import static human.anatomy.Config.ACTIVATE_PROGRESS_BAR;
+import static human.anatomy.Config.ENABLE_SWIPE_NAVIGATE;
+import static human.anatomy.Config.ENABLE__PULL_REFRESH;
+import static human.anatomy.Config.EXIT_APP_DIALOG;
+import static human.anatomy.Config.HIDE_NAVIGATION_BAR_IN_LANDSCAPE;
+import static human.anatomy.Config.INCREMENT_WITH_REDIRECTS;
+import static human.anatomy.Config.MAX_TEXT_ZOOM;
+import static human.anatomy.Config.REMAIN_SPLASH_OPTION;
+import static human.anatomy.Config.SPECIAL_LINK_HANDLING_OPTIONS;
+import static human.anatomy.Config.SPLASH_SCREEN_ACTIVATED;
+import static human.anatomy.Config.downloadableExtension;
 
 public class MainActivity extends AppCompatActivity
         implements OSSubscriptionObserver,
