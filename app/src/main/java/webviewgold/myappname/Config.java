@@ -4,21 +4,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class Config {
-    // ***********************************************************
-    // *** THANKS FOR BEING PART OF THE WEBVIEWGOLD COMMUNITY! ***
-    // ***********************************************************
-    // *** Your Purchase Code of CodeCanyon ***
-    // 1. Buy a WebViewGold license (https://www.webviewgold.com/download/android) for each app you publish. If your app is going to be free, a "Regular license" is required. If your app will be sold to your users or if you use the In-App Purchases API, an "Extended license" is required. More info: https://codecanyon.net/licenses/standard?ref=onlineappcreator
-    // 2. Grab your Purchase Code (this is how to find it quickly: https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-)
-    // 3. Great! Just enter it here and restart your app
-//    uncomment this for use below
-//    public static final String PURCHASECODE = "";
-    // 4. Enjoy your app! :)
-
-    /**
-     * Main Configuration Of Your WebViewGold App
-     */
-    // Domain host and subdomain without any https:// or http:// prefixes (e.g., "www.example.org")
     public static final String HOST = "www.kalyanishrestha.com.np";
 
     // Your URL including https:// or http:// prefix and including www. or any required subdomain (e.g., "https://www.example.org")

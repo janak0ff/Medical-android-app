@@ -411,60 +411,6 @@ public class MainActivity extends AppCompatActivity
             } else isNotificationURL = false;
         }
 
-
-//        final String myOSurl = Config.PURCHASECODE;
-//
-//        if (Config.PUSH_ENABLED) {
-//            OneSignal.addSubscriptionObserver(this);
-//            OneSignal.setInAppMessageClickHandler(osInAppMessageAction -> {
-//                osInAppMessageAction.getClickUrl();
-//                webView.loadUrl(osInAppMessageAction.getClickUrl());
-//            });
-//            OneSignal.setNotificationOpenedHandler(
-//                    new OneSignal.OSNotificationOpenedHandler() {
-//                        @Override
-//                        public void notificationOpened(OSNotificationOpenedResult result) {
-//
-//                            String actionId = result.getAction().getActionId();
-//
-//                            String title = result.getNotification().getTitle();
-//                            if (title != null) {
-//                                Log.e("RESULTTITLE", title);
-//                            }
-//
-//                            JSONObject data = result.getNotification().getAdditionalData();
-//                            String launchUrl = result.getNotification().getLaunchURL();
-//                            String urlString = null;
-//                            if (data != null && data.has("url")) {
-//                                try {
-//                                    urlString = data.getString("url");
-//                                } catch (JSONException e) {
-//                                    e.printStackTrace();
-//                                }
-//                            }
-//
-//                            // Log.e("OneSignal_Deeplinking", urlString); //Deeplinking URL of OneSignal (url key-value pair)
-//
-//                            if (urlString != null) {
-//                                handleURl(urlString);
-//                            } else {
-//                                if (launchUrl != null) {
-//                                    openInExternalBrowser(launchUrl);
-//                                }
-//
-//                            }
-//
-//
-//                            long diffseconds = TimeUnit.MILLISECONDS.toSeconds(Calendar.getInstance().getTimeInMillis() - TimeStamp);
-//
-//                            if (isInBackGround && diffseconds >= 3)
-//                                foreground(launchUrl, urlString);
-//
-//
-//                        }
-//                    });
-//        }
-
         if (savedInstanceState == null) {
             AlertManager.appLaunched(this);
         }
