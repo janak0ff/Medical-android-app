@@ -6,7 +6,7 @@
 
     <string name="default_notification_channel_id">Notification</string>
 
-    <string name="first_launch_message">Thank you for downloading this app!</string>
+    <string name="first_launch_message">Thank you for using our app!</string>
 
     <!--Dialog buttons-->
     <string name="later">Maybe later</string>
