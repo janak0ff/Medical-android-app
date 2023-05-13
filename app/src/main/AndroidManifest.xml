@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="human.anatomy">
+    package="humans.anatomy">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -18,16 +18,16 @@
 <!--    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />-->
 <!--    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>-->
 
-<!--    <uses-feature android:name="android.hardware.camera" />-->
+    <uses-feature android:name="android.hardware.camera" />
 
-<!--    <queries>-->
-<!--        <intent>-->
-<!--            <action android:name="android.media.action.IMAGE_CAPTURE" />-->
-<!--        </intent>-->
-<!--        <intent>-->
-<!--            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />-->
-<!--        </intent>-->
-<!--    </queries>-->
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <intent>
+            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+        </intent>
+    </queries>
 
     <application
         android:name=".WebViewApp"

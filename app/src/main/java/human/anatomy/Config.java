@@ -4,10 +4,10 @@ import java.util.Collections;
 import java.util.List;
 
 public class Config {
-    public static final String HOST = "www.kalyanishrestha.com.np";
+    public static final String HOST = "www.saraswatishrestha.com.np";
 
     // Your URL including https:// or http:// prefix and including www. or any required subdomain (e.g., "https://www.example.org")
-    public static String HOME_URL = "www.kalyanishrestha.com.np";
+    public static String HOME_URL = "www.saraswatishrestha.com.np";
 
     // Set to "false" to disable the progress spinner/loading spinner
     public static final boolean ACTIVATE_PROGRESS_BAR = true;
@@ -38,7 +38,7 @@ public class Config {
     public static final int SPECIAL_LINK_HANDLING_OPTIONS = 0;
 
     // Add URL prefixes that you ALWAYS want to open in an in-app tab (e.g., {"https://www.google.com", "https://www.example.com/page"})
-    public static String[] ALWAYS_OPEN_IN_INAPP_TAB = new String[]{"www.kalyanishrestha.com.np"};
+    public static String[] ALWAYS_OPEN_IN_INAPP_TAB = new String[]{"www.saraswatishrestha.com.np"};
 
     // Set to "true" to clear the WebView cache on each app startup and do not use cached versions of your web app/website
     public static final boolean CLEAR_CACHE_ON_STARTUP = false;

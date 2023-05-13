@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "xxxxxxxxxxx",
         "android_client_info": {
-          "package_name": "human.anatomy"
+          "package_name": "humans.anatomy"
         }
       },
       "oauth_client": [

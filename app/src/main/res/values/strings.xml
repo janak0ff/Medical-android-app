@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">H Anatomy</string>
+    <string name="app_name">H anatomy</string>
 
     <!--"Thanks for downloading!" first run dialog-->
-    <string name="first_launch_title">Welcome to H Anatomy!</string>
+    <string name="first_launch_title">Welcome!</string>
 
     <string name="default_notification_channel_id">Notification</string>
 
