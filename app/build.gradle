@@ -16,11 +16,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "humans.anatomy"
+        applicationId "humans3d.visualanatomy"
         minSdkVersion 22
         targetSdkVersion 33
         versionCode 1
-        versionName "1.1"
+        versionName "69"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [
                 onesignal_app_id: ONESIGNAL_APP_ID,

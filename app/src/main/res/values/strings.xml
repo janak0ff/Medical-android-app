@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">H anatomy</string>
+    <string name="app_name">Human Anatomy</string>
 
     <!--"Thanks for downloading!" first run dialog-->
     <string name="first_launch_title">Welcome!</string>
 
     <string name="default_notification_channel_id">Notification</string>
 
-    <string name="first_launch_message">Thank you for using our app!</string>
+    <string name="first_launch_message">Thank you for using Human Anatomy</string>
 
     <!--Dialog buttons-->
     <string name="later">Maybe later</string>
@@ -33,7 +33,7 @@
     <string name="title_activity_show_web_view">ShowWebView</string>
 
     <!--"Do you want to exit this app?" dialog-->
-    <string name="exit_app_dialog">"Do you want to exit this app?"</string>
+    <string name="exit_app_dialog">"Do you want to exit Human Anatomy?"</string>
 
 
     <!--AdMob IDs-->

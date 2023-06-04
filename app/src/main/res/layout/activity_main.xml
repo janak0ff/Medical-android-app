@@ -8,14 +8,14 @@
         android:id="@+id/swipeContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <humans.anatomy.CustomWebView
+    <humans3d.visualanatomy.CustomWebView
         android:id="@+id/webView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/ad_layout"
         android:visibility="gone">
 
-    </humans.anatomy.CustomWebView>
+    </humans3d.visualanatomy.CustomWebView>
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
     <include layout="@layout/window" />
     <ProgressBar
